@@ -22,7 +22,7 @@ email = "yaya.toure@unchk.edu.sn"
 linkedin_url = "https://www.linkedin.com/in/yaya-toure-8251a4280/"
 #github_url = "https://github.com/CodingYayaToure"
 #universite = "Université Numérique Cheikh Hamidou KANE (UN-CHK)"
-formation = "Licence Analyse Numérique et Modélisation | Master Calcul Scientifique et Modélisation"
+#formation = "Licence Analyse Numérique et Modélisation | Master Calcul Scientifique et Modélisation"
 certificat = "Collecte et Fouille de Données (UADB-CNAM Paris) | 2024"
 
 # Interface Streamlit
@@ -34,7 +34,7 @@ st.sidebar.write(f"Email: {email}")
 st.sidebar.markdown(f"[LinkedIn]({linkedin_url})")
 #st.sidebar.markdown(f"[GitHub]({github_url})")
 #st.sidebar.write(f"{universite}")
-st.sidebar.write(f"**Formations:** {formation}")
+#st.sidebar.write(f"**Formations:** {formation}")
 st.sidebar.write(f"**Certificat:** {certificat}")
 
 # Titre de la page
