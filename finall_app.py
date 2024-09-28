@@ -15,6 +15,18 @@ st.set_page_config(layout="wide")
 
 # Informations personnelles
 photo_url = "CFD_2024.png"
+
+# Afficher les scores de silhouette
+st.sidebar.subheader("Scores de Silhouette")
+if algo_clustering == "KMeans":
+    st.sidebar.write(f"Score de Silhouette KMeans: {score_kmeans:.2f}")
+elif algo_clustering == "DBSCAN":
+    st.sidebar.write(f"Score de Silhouette DBSCAN: {score_dbscan:.2f}")
+elif algo_clustering == "GMM":
+    st.sidebar.write(f"Score de Silhouette GMM: {score_gmm:.2f}")
+elif algo_clustering == "CAH (Clustering Hiérarchique)":
+    st.sidebar.write(f"Score de Silhouette Hiérarchique: {score_cah:.2f}")
+
 prenom = "Yaya"
 nom = "Toure"
 email = "yaya.toure@unchk.edu.sn"
@@ -201,13 +213,4 @@ if uploaded_file is not None:
             # Afficher le dendrogramme
             afficher_dendrogramme(Z)
 
-    # Afficher les scores de silhouette
-    st.sidebar.subheader("Scores de Silhouette")
-    if algo_clustering == "KMeans":
-        st.sidebar.write(f"Score de Silhouette KMeans: {score_kmeans:.2f}")
-    elif algo_clustering == "DBSCAN":
-        st.sidebar.write(f"Score de Silhouette DBSCAN: {score_dbscan:.2f}")
-    elif algo_clustering == "GMM":
-        st.sidebar.write(f"Score de Silhouette GMM: {score_gmm:.2f}")
-    elif algo_clustering == "CAH (Clustering Hiérarchique)":
-        st.sidebar.write(f"Score de Silhouette Hiérarchique: {score_cah:.2f}")
+    
