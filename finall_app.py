@@ -18,7 +18,7 @@ photo_url = "CFD_2024.png"
 prenom = "Yaya"
 nom = "Toure"
 email = "yaya.toure@unchk.edu.sn"
-whatsapps_url = "https://wa.me/message/GW7RWRW3GR4WN1"
+#whatsapps_url = "https://wa.me/message/GW7RWRW3GR4WN1"
 linkedin_url = "https://www.linkedin.com/in/yaya-toure-8251a4280/"
 github_url = "https://github.com/CodingYayaToure"
 universite = "Université Numérique Cheikh Hamidou KANE (UN-CHK)"
@@ -30,7 +30,7 @@ st.sidebar.title("Informations personnelles")
 st.sidebar.image(photo_url, caption=f"{prenom} {nom}", width=390)
 st.sidebar.write(f"Nom: {prenom} {nom}")
 st.sidebar.write(f"Email: {email}")
-st.sidebar.markdown(f"[WhatsApp]({whatsapps_url})")
+#st.sidebar.markdown(f"[WhatsApp]({whatsapps_url})")
 st.sidebar.markdown(f"[LinkedIn]({linkedin_url})")
 st.sidebar.markdown(f"[GitHub]({github_url})")
 st.sidebar.write(f"{universite}")
