@@ -20,8 +20,8 @@ nom = "Toure"
 email = "yaya.toure@unchk.edu.sn"
 #whatsapps_url = "https://wa.me/message/GW7RWRW3GR4WN1"
 linkedin_url = "https://www.linkedin.com/in/yaya-toure-8251a4280/"
-github_url = "https://github.com/CodingYayaToure"
-universite = "Université Numérique Cheikh Hamidou KANE (UN-CHK)"
+#github_url = "https://github.com/CodingYayaToure"
+#universite = "Université Numérique Cheikh Hamidou KANE (UN-CHK)"
 formation = "Licence Analyse Numérique et Modélisation | Master Calcul Scientifique et Modélisation"
 certificat = "Collecte et Fouille de Données (UADB-CNAM Paris) | 2024"
 
@@ -32,8 +32,8 @@ st.sidebar.write(f"Nom: {prenom} {nom}")
 st.sidebar.write(f"Email: {email}")
 #st.sidebar.markdown(f"[WhatsApp]({whatsapps_url})")
 st.sidebar.markdown(f"[LinkedIn]({linkedin_url})")
-st.sidebar.markdown(f"[GitHub]({github_url})")
-st.sidebar.write(f"{universite}")
+#st.sidebar.markdown(f"[GitHub]({github_url})")
+#st.sidebar.write(f"{universite}")
 st.sidebar.write(f"**Formations:** {formation}")
 st.sidebar.write(f"**Certificat:** {certificat}")
 
